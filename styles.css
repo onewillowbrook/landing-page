@@ -101,4 +101,36 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.four-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.boxes {
+    border: 5px solid #3882F6;
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.four-texts-mess {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.boxtainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
 }

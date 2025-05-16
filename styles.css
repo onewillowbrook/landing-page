@@ -4,7 +4,6 @@ body {
 
 .header-container{
     display: flex;
-    background-color: #1f2937;
     justify-content: space-between;
 }
 
@@ -25,7 +24,6 @@ a {
 }
 
 .hero-container {
-    background-color: #1f2937;
     color: white;
     display: flex;
     padding: 50px;
@@ -50,4 +48,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.super-header {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+
 }

@@ -24,7 +24,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: darkgray;
 }
 
 .hero-container {
@@ -41,7 +41,6 @@ a {
     gap: 5px;
    
 }
-
 
 .hero-text {
     display: flex;
@@ -67,18 +66,13 @@ a {
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 150px;
-    margin-left: 230px;
-    margin-right: 230px;
+   
 }
 
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
     flex-wrap: wrap;
-    margin-bottom: 5px;
 }
 
 button {
@@ -86,6 +80,15 @@ button {
     background-color: #3882F6;
     border-radius: 10px;
     width: 150px;
+    margin-top: 10px;
     padding: 10px;
     font-size: 18px;
+}
+
+.width-container {
+    max-width: 1100px;
+    margin: 0 auto; /* Auto margins center it*/
+    padding: 0px 200px 150px 200px; /* Top/Right/Bottom/Left padding */
+    /* margin-left: 230px; Removed "margin hacks" with max width and 
+    margin-right: 230px; auto margins centering it*/
 }

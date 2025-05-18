@@ -24,7 +24,8 @@ body {
 
 a {
     text-decoration: none;
-    color: darkgray;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero-container {
@@ -101,8 +102,8 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .four-boxes {
@@ -125,6 +126,7 @@ button {
     margin-top: 10px;
     font-size: 16px;
     text-align: center;
+    font-size: 18px;
 }
 
 .boxtainer {
@@ -139,10 +141,10 @@ button {
     display: flex;
     background-color: #E5E7EB;
     flex-direction: row;
-    max-width: 1100px;
-    max-height: 550px;
+    width: 800px;
+    height: 200px;
     margin: 0 auto; /* Auto margins center it*/
-    padding: 200px 200px 200px 200px; /*Top/Right/Bottom/Left padding*/
+    padding: 100px 350px 100px 350px; /*Top/Right/Bottom/Left padding*/
     justify-content: center;
     text-align: center;
     margin-top: 100px;
@@ -155,12 +157,12 @@ button {
     color: #1f2937;
     font-style: italic;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: left;
 }
 
 .quote {
     display: flex;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     
 }
 
@@ -171,8 +173,7 @@ button {
 }
 
 .quote-background {
-    max-width: 1100px;
-    width: 100%;
+    width: 500;
     display: flex;
     flex-direction: column;
     /* background-color: #E5E7EB; */
@@ -200,7 +201,6 @@ button {
     justify-content: center;
     /* align-items: center; */
     margin: 0 auto;
-    font-size: 18px;
     color: #E5E7EB;
     margin-right: 100px;
 }
@@ -208,18 +208,19 @@ button {
 .footer-container {
     display: flex;
     background-color: #1f2937;
-    /* text-align: center; */
     justify-content: center;
     align-items: center;
     min-width: 1100px;
     max-height: 200px;
     margin: 0 auto;
-    padding: 75px 200px 75px 200px; /* Top/Right/Bottom/Left padding */
+    padding: 50px 200px 50px 200px; /* Top/Right/Bottom/Left padding */
 }
 
 .footer-text {
     color: white;
     display: flex;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .sign-up-border {
@@ -227,7 +228,13 @@ button {
     display: flex;
     flex: 0 0 auto;
     justify-content: center;
-    /* font-weight: 1100; */
-    /* margin-left: 50px; */
-    /* padding-left: 50px; */
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sign-up-text {
+    font-size: 18px;
 }

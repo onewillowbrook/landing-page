@@ -177,3 +177,57 @@ button {
     flex-direction: column;
     /* background-color: #E5E7EB; */
 }
+
+.call-container {
+    display: flex;
+    background-color: #3882F6;
+    max-width: 1100px;
+    margin: 0 auto; /* Auto margins center it*/
+    padding: 50px 125px 50px 125px; /* Top/Right/Bottom/Left padding */
+    /* flex: 0 0 550px */
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.call-background {
+    display: flex;
+    flex-direction: column;
+    /* height: 400px;
+    max-width: 800px; */
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 100px;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #1f2937;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    min-width: 1100px;
+    max-height: 200px;
+    margin: 0 auto;
+    padding: 75px 200px 75px 200px; /* Top/Right/Bottom/Left padding */
+}
+
+.footer-text {
+    color: white;
+    display: flex;
+}
+
+.sign-up-border {
+    border: 3px solid white;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    /* font-weight: 1100; */
+    /* margin-left: 50px; */
+    /* padding-left: 50px; */
+}
